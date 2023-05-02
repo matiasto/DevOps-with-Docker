@@ -1,0 +1,40 @@
+Script started on Tue May  2 23:26:54 2023
+Restored session: Tue May  2 23:26:51 EEST 2023
+[1m[7m%[27m[1m[0m                                                                                                                             ]7;file://Matias_Mac/Users/matiastolppanen/school/active/DevOps-with-Docker/part_1[0m[27m[24m[Jmatiastolppanen@Matias_Mac part_1 % [K[?2004hexitdocker imagesrmi 4 imagesps -a stop 0cps -a system prune[12Dexec -it tmp bash[12Dtmp "tail -f ./text.log
+"[K[A[35C[12C-it bash               [1B[K[A[56C[13Dattach tmp   [10Drun -d --rm -it --name tmp devopsdockeruh/simple-web-service:ubuntu[P[52C [53D[P[52C [53D[P[52C [53D[1C-[P[50C [52D[P[52C [53D[P[52C [53D[P[52C [53D[P[52C [53D-[P[50C [53D[P[52C [53Dd --name tmp devopsdockeruh/simple-web-service:ubuntu[52D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[?2004l[1BUnable to find image 'devopsdockeruh/simple-web-service:ubuntu' locally
+ubuntu: Pulling from devopsdockeruh/simple-web-service
+
+[1A[2K5d3b2c2d21bb: Pulling fs layer [1B
+[1A[2K3fc2062ea667: Pulling fs layer [1B
+[1A[2K75adf526d75b: Pulling fs layer [1B
+[1A[2K965d4bbb586a: Pulling fs layer [1B
+[1A[2K4f4fb700ef54: Pulling fs layer [1B[2A[2K965d4bbb586a: Waiting [2B[1A[2K4f4fb700ef54: Waiting [1B[4A[2K3fc2062ea667: Downloading [============================================>      ]     760B/850B[4B[4A[2K3fc2062ea667: Downloading [==================================================>]     850B/850B[4B[4A[2K3fc2062ea667: Verifying Checksum [4B[4A[2K3fc2062ea667: Download complete [4B[3A[2K75adf526d75b: Downloading [==================================================>]     162B/162B[3B[3A[2K75adf526d75b: Verifying Checksum [3B[3A[2K75adf526d75b: Download complete [3B[5A[2K5d3b2c2d21bb: Downloading [>                                                  ]  289.1kB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading [====>                                              ]  2.644MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading [===========>                                       ]  6.466MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Downloading [=====================>                             ]  12.33MB/28.57MB[5B[2A[2K965d4bbb586a: Downloading [>                                                  ]  51.93kB/5.117MB[2B[5A[2K5d3b2c2d21bb: Downloading [===========================>                       ]  15.88MB/28.57MB[5B[1A[2K4f4fb700ef54: Downloading [==================================================>]      32B/32B[1B[1A[2K4f4fb700ef54: Verifying Checksum [1B[1A[2K4f4fb700ef54: Download complete [1B[2A[2K965d4bbb586a: Downloading [========>                                          ]  863.5kB/5.117MB[2B[5A[2K5d3b2c2d21bb: Downloading [==============================>                    ]  17.34MB/28.57MB[5B[2A[2K965d4bbb586a: Downloading [=====================>                             ]  2.169MB/5.117MB[2B[5A[2K5d3b2c2d21bb: Downloading [====================================>              ]  20.86MB/28.57MB[5B[2A[2K965d4bbb586a: Downloading [==============================>                    ]  3.152MB/5.117MB[2B[5A[2K5d3b2c2d21bb: Downloading [==========================================>        ]   24.1MB/28.57MB[5B[2A[2K965d4bbb586a: Downloading [===========================================>       ]  4.463MB/5.117MB[2B[5A[2K5d3b2c2d21bb: Downloading [==============================================>    ]  26.74MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Verifying Checksum [5B[5A[2K5d3b2c2d21bb: Download complete [5B[5A[2K5d3b2c2d21bb: Extracting [>                                                  ]  294.9kB/28.57MB[5B[5A[2K5d3b2c2d21bb: Extracting [=================>                                 ]  9.732MB/28.57MB[5B[2A[2K965d4bbb586a: Downloading [==================================================>]  5.117MB/5.117MB[2B[2A[2K965d4bbb586a: Verifying Checksum [2B[2A[2K965d4bbb586a: Download complete [2B[5A[2K5d3b2c2d21bb: Extracting [====================================>              ]  20.64MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Extracting [================================================>  ]  27.72MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Extracting [==================================================>]  28.57MB/28.57MB[5B[5A[2K5d3b2c2d21bb: Pull complete [5B[4A[2K3fc2062ea667: Extracting [==================================================>]     850B/850B[4B[4A[2K3fc2062ea667: Extracting [==================================================>]     850B/850B[4B[4A[2K3fc2062ea667: Pull complete [4B[3A[2K75adf526d75b: Extracting [==================================================>]     162B/162B[3B[3A[2K75adf526d75b: Extracting [==================================================>]     162B/162B[3B[3A[2K75adf526d75b: Pull complete [3B[2A[2K965d4bbb586a: Extracting [>                                                  ]  65.54kB/5.117MB[2B[2A[2K965d4bbb586a: Extracting [==================================================>]  5.117MB/5.117MB[2B[2A[2K965d4bbb586a: Pull complete [2B[1A[2K4f4fb700ef54: Extracting [==================================================>]      32B/32B[1B[1A[2K4f4fb700ef54: Extracting [==================================================>]      32B/32B[1B[1A[2K4f4fb700ef54: Pull complete [1BDigest: sha256:d44e1dce398732e18c7c2bad9416a072f719af33498302b02929d4c112e88d2a
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:ubuntu
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+b4991273a1f652ec27404d327120b534cc4315e45b26edf9aacba60c57d31213
+[1m[7m%[27m[1m[0m                                                                                                                             ]7;file://Matias_Mac/Users/matiastolppanen/school/active/DevOps-with-Docker/part_1[0m[27m[24m[Jmatiastolppanen@Matias_Mac part_1 % [K[?2004hdocker run -d --name tmp devopsdockeruh/simple-web-service:ubuntu[65Dexit                                                             [61Ddocker imagesrmi 4 imagesps -a stop 0cps -a system prune[12Dexec -it tmp bash[?2004l
+]0;root@b4991273a1f6: /usr/src/approot@b4991273a1f6:/usr/src/app# tail -f ./test  xt.log
+2023-05-02 20:27:44 +0000 UTC
+2023-05-02 20:27:46 +0000 UTC
+2023-05-02 20:27:48 +0000 UTC
+2023-05-02 20:27:50 +0000 UTC
+2023-05-02 20:27:52 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-05-02 20:27:54 +0000 UTC
+2023-05-02 20:27:56 +0000 UTC
+2023-05-02 20:27:58 +0000 UTC
+2023-05-02 20:28:00 +0000 UTC
+2023-05-02 20:28:02 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-05-02 20:28:04 +0000 UTC
+2023-05-02 20:28:06 +0000 UTC
+•π2023-05-02 20:28:08 +0000 UTC
+π•2023-05-02 20:28:10 +0000 UTC
+read escape sequence
+[1m[7m%[27m[1m[0m                                                                                                                             ]7;file://Matias_Mac/Users/matiastolppanen/school/active/DevOps-with-Docker/part_1[0m[27m[24m[Jmatiastolppanen@Matias_Mac part_1 % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Tue May  2 23:28:20 2023
