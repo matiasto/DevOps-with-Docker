@@ -1,4 +1,4 @@
-IMAGE_NAME=example-frontend
+IMAGE_NAME=example-backend
 
 build:
 	docker build . -t $(IMAGE_NAME)

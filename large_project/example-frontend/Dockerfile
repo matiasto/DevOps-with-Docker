@@ -1,6 +1,6 @@
 FROM node:16-alpine
 
-EXPOSE 8080
+EXPOSE 7070
 
 RUN node -v && npm -v
 
