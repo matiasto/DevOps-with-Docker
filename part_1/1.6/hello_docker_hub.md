@@ -1,3 +1,4 @@
+```bash
 matiastolppanen@Matias_Mac part_1 % docker run -it devopsdockeruh/pull_exercise
 .
 .
@@ -7,3 +8,4 @@ You found the correct password. Secret message is:
 "This is the secret message"
 
 matiastolppanen@Matias_Mac part_1 % 
+```

@@ -1,3 +1,4 @@
+```bash
 matiastolppanen@Matias_Mac part_1 % docker run -it --name tmp ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
 .
 .
@@ -30,3 +31,4 @@ Searching..
 </html>
 Input website:
 matiastolppanen@Matias_Mac part_1 % 
+```

@@ -8,6 +8,8 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN npm install && npm run build
+RUN npm install 
 
-CMD npm install -g serve && serve -s -l 8080 build
+RUN REACT_APP_BACKEND_URL=http://localhost:8080 npm run build
+
+CMD npm install -g serve && serve -s -l 7070 build

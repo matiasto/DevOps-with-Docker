@@ -1,3 +1,4 @@
+```bash
 matiastolppanen@Matias_Mac ~ % docker run -d --name ubuntu devopsdockeruh/simple-web-service:ubuntu
 .
 .
@@ -46,3 +47,4 @@ Secret message is: 'You can find the source code here: https://github.com/docker
 2023-05-04 17:07:14 +0000 UTC
 read escape sequence
 matiastolppanen@Matias_Mac ~ % 
+```
