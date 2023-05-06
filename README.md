@@ -22,3 +22,4 @@
 - [x] 2.1 [Docker compose](./part_2/2.1/docker-compose.yml)
 - [x] 2.2 [Command](./part_2/2.2/docker-compose.yml)
 - [x] 2.3 [Simplify large project](./large_project/docker-compose.yml)
+- [x] 2.4 [Redis](./part_2/2.4/docker-compose.yml)
