@@ -1,0 +1,12 @@
+version: "3.6"
+
+services:
+  frontend:
+    build: ./example-frontend
+    ports:
+      - "7070:7070"
+    
+  backend:
+    build: ./example-backend
+    ports:
+      - "8080:8080"
