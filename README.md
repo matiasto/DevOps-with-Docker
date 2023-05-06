@@ -15,3 +15,4 @@
 - [x] 1.12 [Hello, frontend!](./large_project/example-frontend/Dockerfile)
 - [x] 1.13 [Hello, backend!](./large_project/example-backend/Dockerfile)
 - [x] 1.14 [Environment](./large_project/)
+- [x] 1.15 [Homework](https://hub.docker.com/repository/docker/matiasto/coin-flip-simulator/general)
