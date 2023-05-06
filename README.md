@@ -16,3 +16,7 @@
 - [x] 1.13 [Hello, backend!](./large_project/example-backend/Dockerfile)
 - [x] 1.14 [Environment](./large_project/)
 - [x] 1.15 [Homework](https://hub.docker.com/repository/docker/matiasto/coin-flip-simulator/general)
+- [] 1.16 Cloud deployment (not done)
+
+## Part 2
+- [x] 2.1 [Docker compose](./part_2/2.1/docker-compose.yml)
