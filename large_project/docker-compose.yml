@@ -5,8 +5,6 @@ services:
     build: ./example-frontend
     ports:
       - "127.0.0.1:7070:7070"
-    environment:
-      - REACT_APP_BACKEND_URL=backend
     networks:
       - app-network
 
@@ -17,13 +15,25 @@ services:
     environment:
       - REQUEST_ORIGIN=http://localhost:7070
       - REDIS_HOST=redis
+      - POSTGRES_HOST=db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
     depends_on:
       - redis
+      - db
     networks:
       - app-network
 
   redis:
     image: redis:latest
+    networks:
+      - app-network
+
+  db:
+    image: postgres:13.1-alpine
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
     networks:
       - app-network
 
