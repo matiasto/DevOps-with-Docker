@@ -27,3 +27,4 @@
 - [x] 2.6 [Database](./large_project/docker-compose.yml)
 - [x] 2.7 [Postgres volume](./large_project/docker-compose.yml)
 - [x] 2.8 [Reverse proxy](./large_project/docker-compose.yml)
+- [x] 2.9 [Fixing buttons](./part_2/2.9/fixing_buttons.md)
