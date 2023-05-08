@@ -26,3 +26,4 @@
 - [x] 2.5 [Scaling](./part_2/2.5/scaling.md)
 - [x] 2.6 [Database](./large_project/docker-compose.yml)
 - [x] 2.7 [Postgres volume](./large_project/docker-compose.yml)
+- [x] 2.8 [Reverse proxy](./large_project/docker-compose.yml)
