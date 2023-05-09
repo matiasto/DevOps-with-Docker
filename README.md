@@ -16,7 +16,7 @@
 - [x] 1.13 [Hello, backend!](./large_project/example-backend/Dockerfile)
 - [x] 1.14 [Environment](./large_project/)
 - [x] 1.15 [Homework](https://hub.docker.com/repository/docker/matiasto/coin-flip-simulator/general)
-- [] 1.16 Cloud deployment (not done)
+- [ ] 1.16 Cloud deployment (not done)
 
 ## Part 2
 - [x] 2.1 [Docker compose](./part_2/2.1/docker-compose.yml)
@@ -29,3 +29,8 @@
 - [x] 2.8 [Reverse proxy](./large_project/docker-compose.yml)
 - [x] 2.9 [Fixing buttons](./part_2/2.9/fixing_buttons.md)
 - [x] 2.10 [Port scan](./part_2/2.10/port_scan.md)
+- [ ] 2.11 [Own development projects](not done)
+
+## Part 3
+- [x] 3.1 [Your pipeline](https://github.com/matiasto/DevOps-pipeline-exercise)
+
