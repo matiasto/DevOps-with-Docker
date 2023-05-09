@@ -29,8 +29,9 @@
 - [x] 2.8 [Reverse proxy](./large_project/docker-compose.yml)
 - [x] 2.9 [Fixing buttons](./part_2/2.9/fixing_buttons.md)
 - [x] 2.10 [Port scan](./part_2/2.10/port_scan.md)
-- [ ] 2.11 [Own development projects](not done)
+- [ ] 2.11 Own development projects (not done)
 
 ## Part 3
 - [x] 3.1 [Your pipeline](https://github.com/matiasto/DevOps-pipeline-exercise)
-
+- [ ] 3.2 [A deployment pipeline to a cloud service](not done)
+- [x] 3.3 [Building images script](./part_3/3.3/builder.sh)
