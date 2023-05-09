@@ -37,3 +37,4 @@
 - [x] 3.3 [Building images script](./part_3/3.3/builder.sh)
 - [x] 3.4 [Buildind images inside of a container](./part_3/3.4/)
 - [x] 3.5 [Non-root user](./part_3/3.5/non-root_user.md)
+- [x] 3.6 [Image sizes](./part_3/3.6/image_sizes.md)
