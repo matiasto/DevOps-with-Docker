@@ -1,14 +1,26 @@
-FROM node:16-alpine
+# Build stage
+FROM node:16-alpine AS build
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+RUN npm install && npm run build
+
+# Production stage
+FROM alpine:latest
 
 WORKDIR /usr/src/app
 
 RUN adduser -D -s /bin/sh appuser && \
-    chown -R appuser:appuser /usr/src/app
+    chown -R appuser:appuser /usr/src/app && \
+    apk add --no-cache nodejs npm && \
+    npm install -g serve
 
-COPY . .
+COPY --from=build /usr/src/app/build ./build
 
-RUN npm install && npm run build && npm install serve
+ENV PATH="/usr/src/app/node_modules/.bin:${PATH}"
 
 USER appuser
 
-CMD ["./node_modules/.bin/serve", "-s", "-l", "7070", "build"]
+CMD ["serve", "-s", "-l", "7070", "build"]

@@ -39,3 +39,4 @@
 - [x] 3.5 [Non-root user](./part_3/3.5/non-root_user.md)
 - [x] 3.6 [Image sizes](./part_3/3.6/image_sizes.md)
 - [x] 3.7 [Image sizes continued](./part_3/3.7/image_sizes.md)
+- [x] 3.8 [Multi-stage frontend](./large_project/example-frontend/Dockerfile)
