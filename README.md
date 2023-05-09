@@ -35,3 +35,4 @@
 - [x] 3.1 [Your pipeline](https://github.com/matiasto/DevOps-pipeline-exercise)
 - [ ] 3.2 [A deployment pipeline to a cloud service](not done)
 - [x] 3.3 [Building images script](./part_3/3.3/builder.sh)
+- [x] 3.4 [Buildind images inside of a container](./part_3/3.4/)
