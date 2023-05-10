@@ -42,3 +42,4 @@
 - [x] 3.8 [Multi-stage frontend](./large_project/example-frontend/Dockerfile)
 - [x] 3.9 [Multi-stage backend](./large_project/example-backend/Dockerfile)
 - [x] 3.10 [Better Dockerfile](./part_3/3.10/dockerfile_diff.md)
+- [x] 3.11 [Kubernetes](./part_3/3.11/kubernetes.md)
